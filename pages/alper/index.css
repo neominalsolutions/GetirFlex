@@ -1,0 +1,95 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none
+}
+
+header {
+    display: flex;
+    background-color: #4c3398;
+    align-items: center;
+    padding: 2px;
+    border-bottom: 1pxs solid black;
+
+}
+
+.logo {
+    flex-grow: 0.2;
+}
+
+.navbar {
+    flex-grow: 10;
+    padding: 10px;
+    text-align: start;
+    text-decoration: none;
+}
+
+.navbar-item {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-item:hover {
+    color: yellow;
+}
+
+.login-page {
+    flex-grow: 20;
+    padding: 10px;
+    text-align: end;
+
+}
+
+.login-page-item {
+    color: white;
+    text-decoration: none;
+}
+
+.login-page-item:hover {
+    color: yellow;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid#4c3398;
+    background-image: url("/GetirFlex/assets/images/getir-mainpage.jpg");
+    background-size: cover;
+    height: 50vh;
+
+
+}
+
+.banner-item-left {
+    border: solid red;
+    height: 125px;
+    width: 7vw;
+    text-align: start;
+    padding: 50px;
+    margin: 25px;
+}
+
+.banner-item-logo {
+    text-align: center;
+    background-image: url("/GetirFlex/assets/images/apple-icon-120x120.png");
+    height: 125px;
+    width: 7vw;
+    border-radius: 100px;
+}
+
+
+
+.banner-item-right {
+    height: auto;
+    width: auto;
+    border: solid red;
+    float: right;
+    height: 50px;
+    background-color: white;
+
+    padding: 5px;
+    margin: 25px;
+
+}
+
+.banner-item-right-item {}
