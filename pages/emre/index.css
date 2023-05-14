@@ -1,0 +1,85 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+header {
+    display: flex;
+    background-color: rgb(76, 51, 152);
+    align-items: center;
+    padding: 0.0rem 0.5rem;
+    height: 50px;
+}
+
+.navbar {
+    margin-left: 25vh;
+    display: flex;
+    color: white;
+    font-size: 3vh;
+}
+
+.giris {
+    flex-grow: 6;
+    justify-content: end;
+    text-align: right;
+    padding-right: 0.2rem;
+    display: flex;
+    margin-right: 25vh;
+    color: white;
+}
+
+.menu-item {
+    cursor: pointer;
+    padding: 0.5rem;
+
+}
+
+.site-item {
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.banner{
+    height: 65vh;
+    background-image: url("/assets/images/getir-mainpage.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    width: 400px;
+}
+
+.banner-left>h3{
+    color: white;
+    font-size: 5vh;
+    display: flex;
+   padding-left: 17vh;
+   margin-top: 5vh;
+}
+
+.banner-right{
+    background-color: white;
+    border: 1px solid red;
+    height: 200px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.icerik{
+    display: flex;
+}
+
+.input1{
+    border: 1px solid red;
+}
+
+.title{
+    margin-bottom: 30px;
+}
